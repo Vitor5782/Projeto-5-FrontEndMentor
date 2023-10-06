@@ -17,6 +17,3 @@
 
 #ignorando o arquivo pensando antes de fazer
 *.txt
-
-#ignorando o readme.md por enquanto ate a finalização do projeto
-*.md

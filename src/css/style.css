@@ -19,7 +19,7 @@ main {
     display: grid;
     grid-template-areas: "sedans suvs luxury";
     grid-template-columns:repeat(3, 1fr);
-    width: 100vh;
+    width: 80%;
     color: var(--color-paragraphs);
 }
 
