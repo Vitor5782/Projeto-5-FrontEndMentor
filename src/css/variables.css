@@ -1,0 +1,10 @@
+:root{
+    --bg-color-sedans:hsl(31, 77%, 52%);
+    --bg-color-suvs:hsl(184, 100%, 22%);
+    --bg-color-luxury:hsl(179, 100%, 13%);
+    --color-paragraphs:hsla(0, 0%, 100%, 0.75);
+    --color-highlights:hsl(0, 0%, 95%);
+    --font-paragraphs:'Lexend Deca', sans-serif;
+    --font-highlights:'Big Shoulders Display', sans-serif;
+    --color-footer:hsl(228, 45%, 44%);
+}

@@ -1,0 +1,116 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: var(--font-paragraphs);
+}
+
+.container {
+    display: grid;
+    grid-template-areas: "sedans suvs luxury";
+    grid-template-columns:repeat(3, 1fr);
+    width: 100vh;
+    color: var(--color-paragraphs);
+}
+
+.sedans {
+    grid-area: sedans;
+    background-color: var(--bg-color-sedans);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.suvs {
+    grid-area: suvs;
+    background-color: var(--bg-color-suvs);
+}
+
+.luxury {
+    grid-area: luxury;
+    background-color: var(--bg-color-luxury);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.sedans,
+.suvs,
+.luxury {
+    padding: 5rem;
+}
+
+.sedans h2,
+.suvs h2,
+.luxury h2 {
+    font-weight: 700;
+    font-family: var(--font-highlights);
+    color: var(--color-highlights);
+}
+
+.carro {
+    margin-bottom: 2rem;
+}
+
+.info .sub-title {
+    margin-bottom: 2rem;
+}
+
+.info .info-car {
+    margin-bottom: 7rem;
+}
+
+.btn-learn-more-sedans {
+    color: var(--bg-color-sedans);
+}
+
+.btn-learn-more-suvs {
+    color: var(--bg-color-suvs);
+}
+
+.btn-learn-more-luxury {
+    color: var(--bg-color-luxury);
+}
+
+.btn-learn-more-sedans,
+.btn-learn-more-suvs,
+.btn-learn-more-luxury {
+    background-color: var(--color-highlights);
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    transition: 0.5s ease-in-out;
+}
+
+.btn-learn-more-sedans:hover {
+    background-color: var(--bg-color-sedans);
+}
+
+.btn-learn-more-suvs:hover {
+    background-color: var(--bg-color-suvs);
+}
+
+.btn-learn-more-luxury:hover {
+    background-color: var(--bg-color-luxury);
+}
+
+.btn-learn-more-sedans:hover,
+.btn-learn-more-suvs:hover,
+.btn-learn-more-luxury:hover {
+    border: 0.1rem;
+    border-style: solid;
+    color: var(--color-highlights);
+}
+.rodape{
+    font-size: 11px; text-align: center;
+}
+.rodape a{
+    color: var(--color-footer);
+}

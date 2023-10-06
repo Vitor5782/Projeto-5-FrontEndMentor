@@ -1,0 +1,22 @@
+@media (max-width:900px) {
+    main{
+        justify-content:stretch;
+        padding-top: 20%;
+    }
+    .container {
+        grid-template-areas: "sedans"
+            "suvs"
+            "luxury";
+        grid-template-columns:1fr;
+        width:80%;
+    }
+    .sedans{
+        border-bottom-left-radius:0;
+        border-top-right-radius:1rem;
+    }
+    .luxury{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 1rem;
+    }
+
+}
